@@ -30,6 +30,12 @@ dependencies {
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+	implementation("net.sf.jasperreports:jasperreports:6.21.2")
+	implementation("com.lowagie:itext:4.2.2")
+	implementation(files("$projectDir/repo/sarabun-report.jar"))
+	implementation(files("$projectDir/repo/k2d-report.jar"))
+	implementation("com.google.zxing:core:3.5.2")
+	implementation("com.google.zxing:javase:3.5.2")
 }
 
 tasks.withType<Test> {
