@@ -1,0 +1,10 @@
+server:
+  http2:
+    enabled: true
+  port: 6137
+  tomcat:
+    relaxed-query-chars: '|,{,},[,]'
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
