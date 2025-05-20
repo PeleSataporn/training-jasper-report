@@ -24,7 +24,7 @@ public class ReportController {
     }
 
     @PostMapping("/report")
-    public ResponseEntity<InputStreamResource> report() throws IOException, JRException, WriterException {
+    public ResponseEntity<InputStreamResource> report() throws IOException, JRException {
         val pdfStream = reportService.generateReport();
 
         val headers = new HttpHeaders();
