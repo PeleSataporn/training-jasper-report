@@ -577,4 +577,22 @@
             </textField>
         </band>
     </columnFooter>
+    <summary>
+        <band height="10">
+            <property name="com.jaspersoft.studio.unit.height" value="px"/>
+            <break>
+                <reportElement x="0" y="0" width="100" height="1" uuid="a732929f-4900-4e88-974f-737ec2c3d7e6">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                </reportElement>
+            </break>
+            <staticText>
+                <reportElement x="100" y="0" width="10" height="10" uuid="8941b21a-68af-4ad5-8fe4-08835072373d">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                </reportElement>
+                <text><![CDATA[]]></text>
+            </staticText>
+        </band>
+    </summary>
 </jasperReport>
